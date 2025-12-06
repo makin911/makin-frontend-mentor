@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   text-transform: capitalize;
+  font-family: "Merienda";
 }
 
 .container-fluid {
@@ -44,9 +45,8 @@
   margin-top: 10px;
   height: 50px;
   font-weight: bold;
-
 }
 .butt:hover {
-    background-color: greenyellow;
-    color: black;
+  background-color: greenyellow;
+  color: black;
 }
