@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   text-transform: capitalize;
-  font-family: 'Merienda';
+  font-family: "Merienda";
 }
 
 .containerBox {
@@ -13,7 +13,54 @@
   align-items: center;
   background-color: white;
 }
-.mainBox{
-    width: 50%;
-    background-color: red;
+.mainBox {
+  width: 60%;
+}
+.row .col {
+  border-radius: 5px;
+  padding: 30px 0;
+}
+.col a {
+  margin-top: 10px;
+}
+.sumBox {
+  width: 80%;
+  display: flex;
+  margin: 10px 20px;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+}
+.btnCon {
+  width: 70%;
+  border-radius: 30px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 40px;
+  background-color: rgb(51, 14, 235);
+  color: white;
+}
+.col1 {
+  background-color: rgb(77, 49, 219);
+  color: white;
+}
+.point {
+  width: 50%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(51, 14, 235);
+  border-radius: 75%;
+  box-shadow: 0 2px 8px 0 rgba(85, 72, 72, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.point p {
+  font-size: 8px;
+  opacity: 0.6;
+}
+.matn {
+  font-size: 14px;
+  padding: 10px;
+  opacity: 0.7;
 }
